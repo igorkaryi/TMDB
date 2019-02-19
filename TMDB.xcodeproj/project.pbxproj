@@ -8,10 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		841D945D221C057700A2740F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D945C221C057700A2740F /* AppDelegate.swift */; };
-		841D945F221C057700A2740F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D945E221C057700A2740F /* ViewController.swift */; };
+		841D945F221C057700A2740F /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D945E221C057700A2740F /* FilmsViewController.swift */; };
 		841D9462221C057700A2740F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841D9460221C057700A2740F /* Main.storyboard */; };
 		841D9464221C057900A2740F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D9463221C057900A2740F /* Assets.xcassets */; };
 		841D9467221C057900A2740F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841D9465221C057900A2740F /* LaunchScreen.storyboard */; };
+		841D9475221C07FF00A2740F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9474221C07FF00A2740F /* BaseViewController.swift */; };
+		841D947C221C08BD00A2740F /* CRC55.otf in Resources */ = {isa = PBXBuildFile; fileRef = 841D9477221C08BC00A2740F /* CRC55.otf */; };
+		841D947D221C08BD00A2740F /* Circe-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 841D9478221C08BD00A2740F /* Circe-ExtraBold.otf */; };
+		841D947E221C08BD00A2740F /* CRC35.otf in Resources */ = {isa = PBXBuildFile; fileRef = 841D9479221C08BD00A2740F /* CRC35.otf */; };
+		841D947F221C08BD00A2740F /* CRC25.otf in Resources */ = {isa = PBXBuildFile; fileRef = 841D947A221C08BD00A2740F /* CRC25.otf */; };
+		841D9480221C08BD00A2740F /* Circe-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 841D947B221C08BD00A2740F /* Circe-Bold.otf */; };
+		841D9482221C08D900A2740F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9481221C08D900A2740F /* R.generated.swift */; };
+		841D9484221C093F00A2740F /* UIViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9483221C093F00A2740F /* UIViewControllerExtentions.swift */; };
+		841D9486221C098300A2740F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9485221C098300A2740F /* Service.swift */; };
+		841D9489221C11C000A2740F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9488221C11C000A2740F /* API.swift */; };
+		841D948B221C153300A2740F /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D948A221C153300A2740F /* Films.swift */; };
+		841D948D221C15B800A2740F /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D948C221C15B800A2740F /* Results.swift */; };
+		841D948F221C34DB00A2740F /* DetailFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D948E221C34DB00A2740F /* DetailFilmViewController.swift */; };
+		841D9494221C35E600A2740F /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9493221C35E600A2740F /* ColumnFlowLayout.swift */; };
 		8BAF664A7BC2453000C5964C /* Pods_TMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5BE0F585C0553383CE6FFB /* Pods_TMDB.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +34,25 @@
 		684883216CD2204022D4D636 /* Pods-TMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB/Pods-TMDB.release.xcconfig"; sourceTree = "<group>"; };
 		841D9459221C057700A2740F /* TMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841D945C221C057700A2740F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		841D945E221C057700A2740F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841D945E221C057700A2740F /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		841D9461221C057700A2740F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841D9463221C057900A2740F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841D9466221C057900A2740F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841D9468221C057900A2740F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841D9474221C07FF00A2740F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		841D9477221C08BC00A2740F /* CRC55.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRC55.otf; sourceTree = "<group>"; };
+		841D9478221C08BD00A2740F /* Circe-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-ExtraBold.otf"; sourceTree = "<group>"; };
+		841D9479221C08BD00A2740F /* CRC35.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRC35.otf; sourceTree = "<group>"; };
+		841D947A221C08BD00A2740F /* CRC25.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CRC25.otf; sourceTree = "<group>"; };
+		841D947B221C08BD00A2740F /* Circe-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Bold.otf"; sourceTree = "<group>"; };
+		841D9481221C08D900A2740F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		841D9483221C093F00A2740F /* UIViewControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtentions.swift; sourceTree = "<group>"; };
+		841D9485221C098300A2740F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		841D9488221C11C000A2740F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		841D948A221C153300A2740F /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		841D948C221C15B800A2740F /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		841D948E221C34DB00A2740F /* DetailFilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewController.swift; sourceTree = "<group>"; };
+		841D9493221C35E600A2740F /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 		E265D6C21FC97A16F6BB1ADC /* Pods-TMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB/Pods-TMDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +106,108 @@
 		841D945B221C057700A2740F /* TMDB */ = {
 			isa = PBXGroup;
 			children = (
-				841D945C221C057700A2740F /* AppDelegate.swift */,
-				841D945E221C057700A2740F /* ViewController.swift */,
-				841D9460221C057700A2740F /* Main.storyboard */,
-				841D9463221C057900A2740F /* Assets.xcassets */,
-				841D9465221C057900A2740F /* LaunchScreen.storyboard */,
-				841D9468221C057900A2740F /* Info.plist */,
+				841D9481221C08D900A2740F /* R.generated.swift */,
+				841D9471221C07B500A2740F /* Network */,
+				841D9470221C07AA00A2740F /* Controllers */,
+				841D9472221C07C000A2740F /* Extentions */,
+				841D946F221C079200A2740F /* Resources */,
 			);
 			path = TMDB;
+			sourceTree = "<group>";
+		};
+		841D946F221C079200A2740F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				841D9476221C083600A2740F /* Fonts */,
+				841D945C221C057700A2740F /* AppDelegate.swift */,
+				841D9463221C057900A2740F /* Assets.xcassets */,
+				841D9468221C057900A2740F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		841D9470221C07AA00A2740F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				841D9473221C07D400A2740F /* GlobalViews */,
+				841D9490221C34E800A2740F /* FilmsViewController */,
+				841D9491221C34F000A2740F /* DetailFilmViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		841D9471221C07B500A2740F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				841D9485221C098300A2740F /* Service.swift */,
+				841D9488221C11C000A2740F /* API.swift */,
+				841D9487221C09AB00A2740F /* Entity */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		841D9472221C07C000A2740F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				841D9483221C093F00A2740F /* UIViewControllerExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		841D9473221C07D400A2740F /* GlobalViews */ = {
+			isa = PBXGroup;
+			children = (
+				841D9460221C057700A2740F /* Main.storyboard */,
+				841D9465221C057900A2740F /* LaunchScreen.storyboard */,
+				841D9474221C07FF00A2740F /* BaseViewController.swift */,
+				841D9492221C35A100A2740F /* CustomView */,
+			);
+			path = GlobalViews;
+			sourceTree = "<group>";
+		};
+		841D9476221C083600A2740F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				841D947B221C08BD00A2740F /* Circe-Bold.otf */,
+				841D9478221C08BD00A2740F /* Circe-ExtraBold.otf */,
+				841D947A221C08BD00A2740F /* CRC25.otf */,
+				841D9479221C08BD00A2740F /* CRC35.otf */,
+				841D9477221C08BC00A2740F /* CRC55.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		841D9487221C09AB00A2740F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				841D948A221C153300A2740F /* Films.swift */,
+				841D948C221C15B800A2740F /* Results.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		841D9490221C34E800A2740F /* FilmsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				841D945E221C057700A2740F /* FilmsViewController.swift */,
+			);
+			path = FilmsViewController;
+			sourceTree = "<group>";
+		};
+		841D9491221C34F000A2740F /* DetailFilmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				841D948E221C34DB00A2740F /* DetailFilmViewController.swift */,
+			);
+			path = DetailFilmViewController;
+			sourceTree = "<group>";
+		};
+		841D9492221C35A100A2740F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				841D9493221C35E600A2740F /* ColumnFlowLayout.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841D946B221C057900A2740F /* Build configuration list for PBXNativeTarget "TMDB" */;
 			buildPhases = (
+				841D946E221C074D00A2740F /* ShellScript */,
 				A99CB146F9FE611C61E4B0AB /* [CP] Check Pods Manifest.lock */,
 				841D9455221C057700A2740F /* Sources */,
 				841D9456221C057700A2740F /* Frameworks */,
@@ -148,8 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841D947D221C08BD00A2740F /* Circe-ExtraBold.otf in Resources */,
+				841D9480221C08BD00A2740F /* Circe-Bold.otf in Resources */,
 				841D9467221C057900A2740F /* LaunchScreen.storyboard in Resources */,
+				841D947E221C08BD00A2740F /* CRC35.otf in Resources */,
+				841D947F221C08BD00A2740F /* CRC25.otf in Resources */,
 				841D9464221C057900A2740F /* Assets.xcassets in Resources */,
+				841D947C221C08BD00A2740F /* CRC55.otf in Resources */,
 				841D9462221C057700A2740F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +321,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMDB/Pods-TMDB-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		841D946E221C074D00A2740F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
 		A99CB146F9FE611C61E4B0AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,8 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841D945F221C057700A2740F /* ViewController.swift in Sources */,
+				841D9484221C093F00A2740F /* UIViewControllerExtentions.swift in Sources */,
+				841D948B221C153300A2740F /* Films.swift in Sources */,
+				841D945F221C057700A2740F /* FilmsViewController.swift in Sources */,
 				841D945D221C057700A2740F /* AppDelegate.swift in Sources */,
+				841D9475221C07FF00A2740F /* BaseViewController.swift in Sources */,
+				841D9482221C08D900A2740F /* R.generated.swift in Sources */,
+				841D948D221C15B800A2740F /* Results.swift in Sources */,
+				841D9494221C35E600A2740F /* ColumnFlowLayout.swift in Sources */,
+				841D948F221C34DB00A2740F /* DetailFilmViewController.swift in Sources */,
+				841D9486221C098300A2740F /* Service.swift in Sources */,
+				841D9489221C11C000A2740F /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV23R78L97;
-				INFOPLIST_FILE = TMDB/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TMDB/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,7 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV23R78L97;
-				INFOPLIST_FILE = TMDB/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TMDB/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
